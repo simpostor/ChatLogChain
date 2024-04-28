@@ -39,7 +39,7 @@ const NavBar = () => {
     <div className={Style.NavBar}>
       <div className={Style.NavBar_box}>
         <div className={Style.NavBar_box_left}>
-          <Image src={images.logo} alt="logo" width={50} height={50} />
+          <Image src={images.logo} alt="logo" width={80} height={80} />
         </div>
         <div className={Style.NavBar_box_right}>
           {/* //DESKTOP */}
@@ -128,9 +128,9 @@ const NavBar = () => {
           <Model
             openBox={setOpenModel}
             title="WELCOME TO"
-            head="CHAT BUDDY"
-            info="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate maxime assumenda exercitationem voluptatibus, vero aliquid in tempore aut, impedit dolores voluptate recusandae nulla fuga? Praesentium iusto mollitia sint fugit! Placeat?"
-            smallInfo="Kindley seclet your name..."
+            head="CHAT LOGCHAIN"
+            info=" 'Chat LogChain' is your secure haven on the Ethereum Mainnet, a blockchain-based decentralized chat app. Enjoy end-to-end encryption for private conversations and access your chat history securely on the Ethereum Mainnet. Your go-to platform for safe and confidential messaging."
+            smallInfo="Enter Your Name"
             image={images.hero}
             functionName={createAccount}
             address={account}

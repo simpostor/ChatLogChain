@@ -39,9 +39,9 @@ const Filter = () => {
           <Model
             openBox={setAddFriend}
             title="WELCOME TO"
-            head="CHAT BUDDY"
-            info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum sit doloribus quod vel expedita, dicta voluptatibus, nemo, deserunt minima quis recusandae porro officiis modi fugiat libero tempora corporis necessitatibus itaque!"
-            smallInfo="Kindley Select Your Friend Name & Address.."
+            head="CHAT LOGCHAIN"
+            info=" 'Chat LogChain' is your secure haven on the Ethereum Mainnet, a blockchain-based decentralized chat app. Enjoy end-to-end encryption for private conversations and access your chat history securely on the Ethereum Mainnet. Your go-to platform for safe and confidential messaging."
+            smallInfo="Enter Your Friend's Name & Address"
             image={images.hero}
             functionName={addFriends}
           />

@@ -35,8 +35,8 @@ export const ChatAppProvider = ({ children }) => {
       const connectAccount = await connectWallet();
       setAccount(connectAccount);
       //GET USER NAME
-      const userName = await contract.getUsername(connectAccount);
-      setUserName(userName);
+      // const userName = await contract.getUsername(connectAccount);
+      // setUserName(userName);
       //GET MY FRIEND LIST
       const friendLists = await contract.getMyFriendList();
       setFriendLists(friendLists);
@@ -79,6 +79,7 @@ export const ChatAppProvider = ({ children }) => {
       setLoading(false);
       window.location.reload();
     } catch (error) {
+      console.error("Error while creating your account:", error);
       setError("Error while creating your account Pleas reload browser");
     }
   };
